@@ -1,0 +1,75 @@
+.sectionOuter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerInner{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperSection{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #551e8f;
+}
+
+.upperNavNumber{
+    width: 640px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upperNavLinks{
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    color: #fb550c;
+}
+
+.navLinks{
+    padding-left: 5px;
+    color: #fff;
+}
+
+.midSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.midButtonsOuter{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowerSection, .lowerNav{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #551e8f;
+}
+
+.lowerNavUl{
+    width: 80%;
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lowerNavLi{
+    list-style: none;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
